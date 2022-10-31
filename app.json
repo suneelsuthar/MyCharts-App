@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MyCharts",
+    "slug": "Receiption",
+    "version": "1.MyCharts.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.MyCharts.MyCharts"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "androidStatusBar": {
+        "backgroundColor": "#C2185B",
+        "translucent": false
+      },
+      "package": "com.MyCharts.MyCharts"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
